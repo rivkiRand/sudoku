@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>sudoku sing in</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+
+</head>
+
+<body>
+
+    <div class="login">
+        <img id="play1" src="sudoku1.png" alt="image">
+        <img id="play3" src="sudoku3.png" alt="image">
+        <p id="wellcome">Welcome to the online sudoku game. <br>
+            To get started, please enter your user name. </p>
+
+        <input onchange="restErrorMsg()" id="userName" type="text" placeholder="Enter your user name">
+        <p id="errorUserName"></p>
+
+        <button class="button" onclick="checkDetails()">Enter</button>
+    </div>
+
+    <script src='script.js'></script>
+</body>
+
+</html>

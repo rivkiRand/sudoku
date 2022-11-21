@@ -1,0 +1,109 @@
+/* universal definition */
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#play1 {
+    left: 300px;
+    margin-top: 310px;
+    width: 11%;
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    float: left;
+    position: absolute;
+}
+
+#play3 {
+    float: left;
+    position: absolute;
+    left: 400px;
+    margin-top: 260px;
+    width: 10%;
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+/* Main Div */
+.login {
+    margin: auto;
+    margin-top: 80px;
+    width: 60%;
+    height: 400px;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: url(sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 10px 20px 10px;
+    border: 0.5px solid #988d8d;
+    box-shadow: 8px 8px 5px #675b5b;
+}
+
+/* input element for entering the user name amd pasowrd */
+input {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0.5px solid #000000;
+    padding-left: 15px;
+}
+
+button {
+    margin: 15px;
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(131, 217, 109);
+    width: 110px;
+    height: 40px;
+    padding: 10px 10px 20px 10px;
+    border: 0.5px solid #8d8989;
+    box-shadow: 5px 5px 5px #959494;
+    cursor: pointer;
+    transition: all 0.9s; /*animatopn fade in effect*/
+}
+.button:hover {
+    background-color: #2c7e2f
+}
+
+
+#wellcome {
+    margin: 25px;
+    margin-top: 40px;
+    padding: 5px;
+    font-family: MD Primer Bold, Rubik, Lato, Lucida Grande, Lucida Sans Unicode, Tahoma, Sans-Serif;
+    ;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-style: normal;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+#errorUserName {
+    color: rgb(240, 30, 30);
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#errorPassword {
+    color: rgb(240, 30, 30);
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
